@@ -24,6 +24,7 @@ let updateInfo=(newInfo)=>{
         <div style={{textAlign:"center"}}>
            <h2 className="head">Weather App by  ARNAV</h2>
             <br></br>   <br></br>
+         <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
         </div>
     );
