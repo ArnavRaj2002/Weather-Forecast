@@ -8,11 +8,10 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 
 export default function InfoBox({info}){
-    const INIT_URL="https://cdn.pixabay.com/photo/2023/10/28/09/20/darling-8346954_1280.jpg";
-    const HOT_URL="https://unsplash.com/photos/gray-clouds-with-sun-rays-at-daytime-EGKnOydwJbc";
-    const COLD_URL="https://unsplash.com/photos/trees-with-fogs-PDtJt8Cp-4Q";
-    const RAIN_URL="https://www.istockphoto.com/photo/adorable-little-boy-playing-at-rainy-day-gm1066533618-285199944?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frainy-weather&utm_medium=affiliate&utm_source=unsplash&utm_term=rainy+weather%3A%3A%3A";
-
+    const INIT_URL = "https://images.unsplash.com/photo-1545134969-8debd725b007?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZHVzdHl8ZW58MHx8MHx8fDA%3D"; 
+    const HOT_URL = "https://media.istockphoto.com/id/1325895908/photo/asian-woman-drying-sweat-in-a-warm-summer-day.webp?b=1&s=170667a&w=0&k=20&c=VioEW1OA7M1dvqyyA0KBPj0a9m_TC69N8wgdiTM6j9I="; 
+    const COLD_URL = "https://images.unsplash.com/photo-1519944159858-806d435dc86b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sZHxlbnwwfHwwfHx8MA%3D%3D"; 
+    const RAIN_URL = "https://images.unsplash.com/photo-1509635022432-0220ac12960b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJhaW58ZW58MHx8MHx8fDA%3D";
     return(
         <div className="InfoBox">
          <div className="cardContainer">
