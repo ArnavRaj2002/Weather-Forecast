@@ -20,7 +20,7 @@ let getWeatherInfo=async()=>{
            tempMin:jsonResponse.main.temp_min,
            tempMax:jsonResponse.main.temp_max,
            humidity:jsonResponse.main.humidity,
-           feelsLike:jsonResponse.main.feels_Like,
+           feelsLike:jsonResponse.main.feels_like,
            weather:jsonResponse.weather[0].description,
         };
         console.log(result);
